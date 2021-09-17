@@ -1,0 +1,69 @@
+Bootstrap: docker
+From: continuumio/miniconda3
+
+%help
+
+	.__   __.  _______   ______  __          ___      .______   
+	|  \ |  | |       \ /      ||  |        /   \     |   _  \  
+	|   \|  | |  .--.  |  ,----'|  |       /  ^  \    |  |_)  | 
+	|  . `  | |  |  |  |  |     |  |      /  /_\  \   |   _  <  
+	|  |\   | |  '--'  |  `----.|  `----./  _____  \  |  |_)  | 
+	|__| \__| |_______/ \______||_______/__/     \__\ |______/  
+                                                            
+	You are currently in a containerized environment that contains all
+	the packages necessary to reliably run and test this dataset.
+
+    To use this recipe file to create a singularity contianer, execute the 
+    following command in a Linux environment where you have root access:
+
+        sudo singularity build <container-name> singularity.recipe
+
+    After the container is built, the following functionalities become available.
+
+	To start an interactive shell, execute:
+	
+		singularity shell <container-name>
+		pytest
+
+	To execute a single command within the container, execute:
+
+		singularity exec <container-name> <command>
+
+%files
+	
+	environment.yml
+
+%post
+       
+	# update package repository list
+        apt-get -y update
+	export DEBIAN_FRONTEND=noninteractive
+
+	apt-get -y upgrade bash-completion \
+	 build-essential \
+	 curl \
+	 git git-core \
+	 golang \
+	 htop \
+	 locales \
+	 man \
+	 nmap \
+	 python3-pip \
+	 ruby-full \
+	 strace \
+	 sudo \
+	 tig \
+	 vim \
+	 wget
+
+	# set time
+	locale-gen en_US.UTF-8
+	
+	# install python packages
+	pip3 install -r requirements.txt
+
+	# create user and set as sudo
+	adduser --disabled-password --gecos '' ndc
+	adduser ndc sudo
+	echo '%sudo ALL=(ALL) NOPASSWD:ALL' >> /etc/sudoers
+	su ndc
