@@ -12,10 +12,10 @@ There is little work investigating the effect of social context on relations bet
 
 
 ## Roadmap
-Release: 4/20/2021
-Data Collection: 5/10/2021-present
-Data Analysis: TBA
-Project Completion: 4/19/2025
+- Release: 4/20/2021
+- Data Collection: 5/10/2021-present
+- Data Analysis: TBA
+- Project Completion: 4/19/2025
 
 
 ## Work in Development
