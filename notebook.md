@@ -7,4 +7,4 @@ In all cases, and in the interest of transparency, a single notebook should be u
 
 
 ### Project Notes
-The notebook can be viewed [here](INSERT YOUR LINK).
+The notebook can be viewed [here](https://docs.google.com/document/d/1q-_jKzeP-joAHEUijBfAFxzskTru5h_V-1ZIqPL0TZI/edit?usp=sharing).
