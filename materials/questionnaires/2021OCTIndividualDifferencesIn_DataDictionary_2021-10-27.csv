@@ -513,7 +513,7 @@ sssqpre_i7_s1_r1_e1,sssqpre_s1_r1_e1,,radio,Annoyed,"1, 1 | 2, 2 | 3, 3 | 4, 4 |
 sssqpre_i8_s1_r1_e1,sssqpre_s1_r1_e1,,radio,Angry,"1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5",,,,,,,y,,,sssq_pre_moods_s1_r1_e1_a64928,,
 sssqpre_i9_s1_r1_e1,sssqpre_s1_r1_e1,,radio,Irritated,"1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5",,,,,,,y,,,sssq_pre_moods_s1_r1_e1_a64928,,
 sssqpre_i10_s1_r1_e1,sssqpre_s1_r1_e1,,radio,Grouchy,"1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5",,,,,,,y,,,sssq_pre_moods_s1_r1_e1_a64928,,
-sssqpre_i11_s1_r1_e1,sssqpre_s1_r1_e1,"Please indicate how true each statement is of your thoughts at the moment.
+sssqpre_i11_s1_r1_e1,sssqpre_s1_r1_e1,"Please indicate how true each statement is of your thoughts during the past ten minutes.
 
 ________________________________________________________________________________________
 Not at all = 1  A little bit = 2   Somewhat = 3   Very much = 4   Extremely = 5",radio,"I am committed to attaining my performance goals.","1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5",,,,,,,y,,,sssqpre_feelings_s1_r1_e1,,
@@ -706,7 +706,7 @@ sssqpre_i7_s1_r2_e1,sssqpre_s1_r2_e1,,radio,Annoyed,"1, 1 | 2, 2 | 3, 3 | 4, 4 |
 sssqpre_i8_s1_r2_e1,sssqpre_s1_r2_e1,,radio,Angry,"1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5",,,,,,,y,,,sssq_pre_s1_r2_e1_1,,
 sssqpre_i9_s1_r2_e1,sssqpre_s1_r2_e1,,radio,Irritated,"1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5",,,,,,,y,,,sssq_pre_s1_r2_e1_1,,
 sssqpre_i10_s1_r2_e1,sssqpre_s1_r2_e1,,radio,Grouchy,"1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5",,,,,,,y,,,sssq_pre_s1_r2_e1_1,,
-sssqpre_i11_s1_r2_e1,sssqpre_s1_r2_e1,"Please indicate how true each statement is of your thoughts at the moment.
+sssqpre_i11_s1_r2_e1,sssqpre_s1_r2_e1,"Please indicate how true each statement is of your thoughts during the past ten minutes.
 
 ________________________________________________________________________________________
 Not at all = 1  A little bit = 2   Somewhat = 3   Very much = 4   Extremely = 5",radio,"I am committed to attaining my performance goals.","1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5",,,,,,,y,,,sssq_pre_s1_r2_e1_2,,
@@ -866,7 +866,7 @@ sssqpre_i7_odd_s1_r2_e1,sssqpre_odd_s1_r2_e1,,radio,Annoyed,"1, 1 | 2, 2 | 3, 3 
 sssqpre_i8_odd_s1_r2_e1,sssqpre_odd_s1_r2_e1,,radio,Angry,"1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5",,,,,,,y,,,sssq_pre_odd_s1_r2_e1_1,,
 sssqpre_i9_odd_s1_r2_e1,sssqpre_odd_s1_r2_e1,,radio,Irritated,"1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5",,,,,,,y,,,sssq_pre_odd_s1_r2_e1_1,,
 sssqpre_i10_odd_s1_r2_e1,sssqpre_odd_s1_r2_e1,,radio,Grouchy,"1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5",,,,,,,y,,,sssq_pre_odd_s1_r2_e1_1,,
-sssqpre_i11_odd_s1_r2_e1,sssqpre_odd_s1_r2_e1,"Please indicate how true each statement is of your thoughts at the moment.
+sssqpre_i11_odd_s1_r2_e1,sssqpre_odd_s1_r2_e1,"Please indicate how true each statement is of your thoughts during the past ten minutes.
 
 ________________________________________________________________________________________
 Not at all = 1  A little bit = 2   Somewhat = 3   Very much = 4   Extremely = 5",radio,"I am committed to attaining my performance goals.","1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5",,,,,,,y,,,sssq_pre_odd_s1_r2_e1_2,,
