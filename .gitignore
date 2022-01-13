@@ -1,6 +1,2 @@
 # OS specific files
 .DS_Store
-
-# data specific files
-derivatives/*
-sourcedata/
