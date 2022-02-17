@@ -32,7 +32,7 @@ This `main` branch contains completed releases for this project. For all work-in
 | Anfernee Duncombe | Junior Research Assistant |
 | Ioanna Papadaki | Junior Research Assistant |
 
-Learn more about us [here](www.ndclab.com/people).
+Learn more about us [here](https://www.ndclab.com/people).
 
 
 ## Contributing
