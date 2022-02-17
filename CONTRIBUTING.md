@@ -46,7 +46,7 @@ rwe-dataset
 ```
 
 ### Container
-To ensure reproducibility of results and software, a default docker file and singularity container are included with this template repository. The respective [README.md](README.me) contains a comprehensive guide on how to get started with the dockerfile. A step-by-step guide to getting started also included in the following [video](https://www.youtube.com/watch?v=oO8n3y23b6M). 
+To ensure reproducibility of results and software, a default docker file and singularity container are included with this template repository. The respective [README.md](README.md) contains a comprehensive guide on how to get started with the dockerfile. A step-by-step guide to getting started also included in the following [video](https://www.youtube.com/watch?v=oO8n3y23b6M). 
 
 
 ## Workflow
